@@ -1,0 +1,31 @@
+{
+  "mens": [
+    {
+      "name": "Jimbo",
+      "description": "fuckboy",
+      "image": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg"
+    },
+    {
+      "name": "Chayce",
+      "description": "fuckgirl",
+      "image": "Vagina"
+    }
+  ],
+  "womens": [
+    {
+      "name": "Britt",
+      "description": "sweetboy",
+      "image": "arm"
+    },
+    {
+      "name": "Angela",
+      "description": "sweetgirl",
+      "image": "leg"
+    }
+  ],
+  "email": [
+    {
+      "email": "wowjimmyparrish@yahoo.com"
+    }
+  ]
+}
