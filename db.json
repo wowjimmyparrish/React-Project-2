@@ -4,8 +4,32 @@
       "name": "Jimbo",
       "description": "Adult mixbreed",
       "gender": "Male",
-      "age": "1-2",
+      "age": "1-2 years",
       "image": "https://images.pexels.com/photos/733416/pexels-photo-733416.jpeg"
+    },
+    {
+      "name": "Chayce",
+      "description": "Adult mixbreed",
+      "age": "2-3 years",
+      "image": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg"
+    },
+    {
+      "name": "Sampson",
+      "description": "Puppy mixbreed",
+      "age": "6 months",
+      "image": "https://images.pexels.com/photos/1458925/pexels-photo-1458925.jpeg"
+    },
+    {
+      "name": "Chayce",
+      "description": "Adult mixbreed",
+      "age": "2-3",
+      "image": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg"
+    },
+    {
+      "name": "Chayce",
+      "description": "Adult mixbreed",
+      "age": "2-3",
+      "image": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg"
     },
     {
       "name": "Chayce",
