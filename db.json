@@ -24,21 +24,21 @@
     {
       "name": "Charlie",
       "description": "Puppy mixbreed",
-      "gender": "female",
+      "gender": "Female",
       "age": "4 months",
       "image": "https://images.pexels.com/photos/59523/pexels-photo-59523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "name": "Charlotte",
       "description": "Adult purebred",
-      "gender": "female",
+      "gender": "Female",
       "age": "4 years",
       "image": "https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "name": "Brittany",
       "description": "Puppy purebred",
-      "gender": "female",
+      "gender": "Female",
       "age": "2-3 months",
       "image": "https://images.pexels.com/photos/2023384/pexels-photo-2023384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
@@ -47,23 +47,30 @@
     {
       "name": "Angela",
       "description": "Adult purebred",
-      "gender": "female",
+      "gender": "Female",
       "age": "5 years",
       "image": "https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "name": "Taylor",
       "description": "Adult mixbreed",
-      "gender": "male",
+      "gender": "Male",
       "age": "4 years",
       "image": "https://images.pexels.com/photos/208984/pexels-photo-208984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "name": "Mark",
       "description": "Adult mixbreed",
-      "gender": "male",
+      "gender": "Male",
       "age": "2 years",
       "image": "https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "name": "Gina",
+      "description": "Adult mixbreed",
+      "gender": "Female",
+      "age": "2 years",
+      "image": "https://images.pexels.com/photos/177809/pexels-photo-177809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
   ],
   "email": [
