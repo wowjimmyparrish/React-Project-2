@@ -1,6 +1,7 @@
 {
   "dogs": [
     {
+      "id": 1,
       "name": "Jimbo",
       "description": "Adult mixbreed",
       "gender": "Male",
@@ -8,6 +9,7 @@
       "image": "https://images.pexels.com/photos/733416/pexels-photo-733416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
+      "id": 2,
       "name": "Chayce",
       "description": "Adult mixbreed",
       "gender": "Male",
@@ -15,6 +17,7 @@
       "image": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
     },
     {
+      "id": 3,
       "name": "Sampson",
       "description": "Puppy mixbreed",
       "gender": "Male",
@@ -22,6 +25,7 @@
       "image": "https://images.pexels.com/photos/1458925/pexels-photo-1458925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
+      "id": 4,
       "name": "Charlie",
       "description": "Puppy mixbreed",
       "gender": "Female",
@@ -29,6 +33,7 @@
       "image": "https://images.pexels.com/photos/59523/pexels-photo-59523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
+      "id": 5,
       "name": "Charlotte",
       "description": "Adult purebred",
       "gender": "Female",
@@ -36,6 +41,7 @@
       "image": "https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
+      "id": 6,
       "name": "Brittany",
       "description": "Puppy purebred",
       "gender": "Female",
@@ -45,6 +51,7 @@
   ],
   "cats": [
     {
+      "id": 1,
       "name": "Angela",
       "description": "Adult purebred",
       "gender": "Female",
@@ -52,6 +59,7 @@
       "image": "https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
+      "id": 2,
       "name": "Taylor",
       "description": "Adult mixbreed",
       "gender": "Male",
@@ -59,6 +67,7 @@
       "image": "https://images.pexels.com/photos/208984/pexels-photo-208984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
+      "id": 3,
       "name": "Mark",
       "description": "Adult mixbreed",
       "gender": "Male",
@@ -66,6 +75,7 @@
       "image": "https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
+      "id": 4,
       "name": "Gina",
       "description": "Adult mixbreed",
       "gender": "Female",
@@ -73,6 +83,7 @@
       "image": "https://images.pexels.com/photos/177809/pexels-photo-177809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
+      "id": 5,
       "name": "Lilly",
       "description": "Kitten mixbreed",
       "gender": "Female",
@@ -82,6 +93,7 @@
   ],
   "email": [
     {
+      "id": 1,
       "email": "wowjimmyparrish@yahoo.com"
     }
   ]
