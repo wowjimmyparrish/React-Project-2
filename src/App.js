@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Route, Switch } from "react-router-dom";
-import Mens from "./Components/Mens";
-import Womens from "./Components/Womens";
+import Dogs from "./Components/Dogs";
+import Cats from "./Components/Cats";
 import Signup from "./Components/Signup";
 import Home from "./Components/Home";
 import NavBar from "./Components/NavBar";
@@ -16,11 +16,11 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/mens">
-          <Mens />
+        <Route path="/dogs">
+          <Dogs />
         </Route>
-        <Route path="/womens">
-          <Womens />
+        <Route path="/cats">
+          <Cats />
         </Route>
         <Route path="/signup">
           <Signup />
