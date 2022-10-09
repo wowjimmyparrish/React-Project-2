@@ -33,13 +33,14 @@
       "description": "Adult purebred",
       "gender": "female",
       "age": "4 years",
-      "image": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg"
+      "image": "https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
-      "name": "Chayce",
-      "description": "Adult mixbreed",
-      "age": "2-3",
-      "image": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg"
+      "name": "Brittany",
+      "description": "Puppy purebred",
+      "gender": "female",
+      "age": "2-3 months",
+      "image": "https://images.pexels.com/photos/2023384/pexels-photo-2023384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
   ],
   "cats": [
