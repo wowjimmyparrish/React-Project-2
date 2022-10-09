@@ -52,9 +52,11 @@
       "image": "https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
-      "name": "Angela",
-      "description": "sweetgirl",
-      "image": "leg"
+      "name": "Taylor",
+      "description": "Adult mixbreed",
+      "gender": "male",
+      "age": "4 years",
+      "image": "https://images.pexels.com/photos/208984/pexels-photo-208984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
   ],
   "email": [
