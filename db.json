@@ -5,21 +5,21 @@
       "description": "Adult mixbreed",
       "gender": "Male",
       "age": "1-2 years",
-      "image": "https://images.pexels.com/photos/733416/pexels-photo-733416.jpeg"
+      "image": "https://images.pexels.com/photos/733416/pexels-photo-733416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "name": "Chayce",
       "description": "Adult mixbreed",
       "gender": "Male",
       "age": "2-3 years",
-      "image": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg"
+      "image": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
     },
     {
       "name": "Sampson",
       "description": "Puppy mixbreed",
       "gender": "Male",
       "age": "6 months",
-      "image": "https://images.pexels.com/photos/1458925/pexels-photo-1458925.jpeg"
+      "image": "https://images.pexels.com/photos/1458925/pexels-photo-1458925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "name": "Charlie",
@@ -45,9 +45,11 @@
   ],
   "cats": [
     {
-      "name": "Britt",
-      "description": "sweetboy",
-      "image": "arm"
+      "name": "Angela",
+      "description": "Adult purebred",
+      "gender": "female",
+      "age": "5 years",
+      "image": "https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "name": "Angela",
