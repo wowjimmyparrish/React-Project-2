@@ -71,6 +71,13 @@
       "gender": "Female",
       "age": "2 years",
       "image": "https://images.pexels.com/photos/177809/pexels-photo-177809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "name": "Lilly",
+      "description": "Kitten mixbreed",
+      "gender": "Female",
+      "age": "2 months",
+      "image": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
   ],
   "email": [
