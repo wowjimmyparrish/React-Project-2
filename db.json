@@ -1,17 +1,20 @@
 {
-  "mens": [
+  "dogs": [
     {
       "name": "Jimbo",
-      "description": "fuckboy",
-      "image": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg"
+      "description": "Adult mixbreed",
+      "gender": "Male",
+      "age": "1-2",
+      "image": "https://images.pexels.com/photos/733416/pexels-photo-733416.jpeg"
     },
     {
       "name": "Chayce",
-      "description": "fuckgirl",
-      "image": "Vagina"
+      "description": "Adult mixbreed",
+      "age": "2-3",
+      "image": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg"
     }
   ],
-  "womens": [
+  "cats": [
     {
       "name": "Britt",
       "description": "sweetboy",
