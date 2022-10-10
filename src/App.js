@@ -24,7 +24,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/dogs">
-          <Dogs />
+          <Dogs allDogs={allDogs} />
         </Route>
         <Route path="/cats">
           <Cats />

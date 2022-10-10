@@ -1,7 +1,11 @@
-function Dogs() {
+import DogCard from "./DogCard";
+
+function Dogs({ allDogs }) {
+  const dogArray = allDogs.map((dog) => <DogCard key={dog.id} dog={dog} />);
+
   return (
     <div id="dogs">
-      <h1>Dogs Component</h1>
+      <ul>{dogArray}</ul>
     </div>
   );
 }
