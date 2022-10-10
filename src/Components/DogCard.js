@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 function DogCard({ dog }) {
-  const [isDogAdopted, setIsDogAdopted] = useState(false);
+  const [showDogDetails, setShowDogDetails] = useState(false);
 
-  function handleDogAdopt() {
-    setIsDogAdopted((isDogAdopted) => !isDogAdopted);
+  function handleDogClick() {
+    setShowDogDetails((showDogDetails) => !showDogDetails);
   }
 
   return (
@@ -12,18 +12,16 @@ function DogCard({ dog }) {
       <li>
         <h2>{dog.name}</h2>
         <img src={dog.image} alt={dog.name}></img>
-        <div>
-          <p>Description: {dog.description}</p>
-          <p>Gender: {dog.gender}</p>
-          <p>Age: {dog.age}</p>
-          {isDogAdopted ? (
-            <button onClick={handleDogAdopt} className="Adopt">
-              Adopted!
-            </button>
-          ) : (
-            <button onClick={handleDogAdopt}>Adopt!</button>
-          )}
-        </div>
+        <button onClick={handleDogClick}> About Me!! </button>
+        {showDogDetails ? (
+          <div>
+            <p>Description: {dog.description}</p>
+            <p>Gender: {dog.gender}</p>
+            <p>Age: {dog.age}</p>
+          </div>
+        ) : (
+          <p></p>
+        )}
       </li>
     </div>
   );
