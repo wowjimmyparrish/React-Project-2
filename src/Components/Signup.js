@@ -1,7 +1,14 @@
 function Signup() {
   return (
-    <div id="signup">
-      <h1>Signup Component</h1>
+    <div className="newsletter">
+      <h1>Recieve Latest Updates On Available Pets</h1>
+      <hr></hr>
+      <p>Enter your email in the box below to receive updates</p>
+      <form>
+        <input type="email" placeholder="Email" required></input>
+        <br></br>
+        <button type="submit">Submit Now</button>
+      </form>
     </div>
   );
 }
