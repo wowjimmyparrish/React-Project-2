@@ -1,7 +1,11 @@
-function Cats() {
+import CatCard from "./CatCard";
+
+function Cats({ allCats }) {
+  const catArray = allCats.map((cat) => <CatCard key={cat.id} cat={cat} />);
+
   return (
     <div id="cats">
-      <h1>Cats Component</h1>
+      <ul>{catArray}</ul>
     </div>
   );
 }

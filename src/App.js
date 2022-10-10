@@ -9,11 +9,18 @@ import NavBar from "./Components/NavBar";
 function App() {
   const [page, setPage] = useState("./");
   const [allDogs, setAllDogs] = useState([]);
+  const [allCats, setAllCats] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3000/dogs")
       .then((r) => r.json())
       .then((data) => setAllDogs(data));
+  }, []);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/cats")
+      .then((r) => r.json())
+      .then((data) => setAllCats(data));
   }, []);
 
   return (
@@ -27,7 +34,7 @@ function App() {
           <Dogs allDogs={allDogs} />
         </Route>
         <Route path="/cats">
-          <Cats />
+          <Cats allCats={allCats} />
         </Route>
         <Route path="/signup">
           <Signup />
