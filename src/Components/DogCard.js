@@ -1,4 +1,12 @@
+import { useState } from "react";
+
 function DogCard({ dog }) {
+  const [isDogAdopted, setIsDogAdopted] = useState(false);
+
+  function handleDogAdopt() {
+    setIsDogAdopted((isDogAdopted) => !isDogAdopted);
+  }
+
   return (
     <div>
       <li>
@@ -8,7 +16,13 @@ function DogCard({ dog }) {
           <p>Description: {dog.description}</p>
           <p>Gender: {dog.gender}</p>
           <p>Age: {dog.age}</p>
-          <button>Adopt</button>
+          {isDogAdopted ? (
+            <button onClick={handleDogAdopt} className="Adopt">
+              Adopted!
+            </button>
+          ) : (
+            <button onClick={handleDogAdopt}>Adopt!</button>
+          )}
         </div>
       </li>
     </div>

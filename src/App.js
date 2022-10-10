@@ -10,11 +10,6 @@ function App() {
   const [page, setPage] = useState("./");
   const [allDogs, setAllDogs] = useState([]);
   const [allCats, setAllCats] = useState([]);
-  const [isAdopted, setIsAdopted] = useState(false);
-
-  function handleAdopt() {
-    setIsAdopted((isAdopted) => !isAdopted);
-  }
 
   useEffect(() => {
     fetch("http://localhost:3000/dogs")
