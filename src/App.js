@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
 import Dogs from "./Components/Dogs";
 import Cats from "./Components/Cats";
@@ -8,6 +8,13 @@ import NavBar from "./Components/NavBar";
 
 function App() {
   const [page, setPage] = useState("./");
+  const [allDogs, setAllDogs] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/dogs")
+      .then((r) => r.json())
+      .then((data) => setAllDogs(data));
+  }, []);
 
   return (
     <div>
