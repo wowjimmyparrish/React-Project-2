@@ -1,7 +1,7 @@
 function Home() {
   return (
     <div id="home">
-      <h1>ADOPT A DOGGO!!</h1>
+      <h1>DON'T SHOP, ADOPT!!</h1>
     </div>
   );
 }
