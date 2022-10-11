@@ -7,7 +7,9 @@ function Signup() {
       <form>
         <input type="email" placeholder="Email" required></input>
         <br></br>
-        <button type="submit">Submit Now</button>
+        <button className="btn" type="submit">
+          Submit Now
+        </button>
       </form>
     </div>
   );
