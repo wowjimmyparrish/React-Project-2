@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 function Signup() {
   return (
     <div className="newsletter">
@@ -7,9 +9,7 @@ function Signup() {
       <form>
         <input type="email" placeholder="Email" required></input>
         <br></br>
-        <button className="btn" type="submit">
-          Submit Now
-        </button>
+        <button type="submit">Submit Now</button>
       </form>
     </div>
   );

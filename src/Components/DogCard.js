@@ -8,11 +8,14 @@ function DogCard({ dog }) {
   }
 
   return (
-    <div>
+    <div className="dogCard">
       <li>
         <h2>{dog.name}</h2>
         <img src={dog.image} alt={dog.name}></img>
-        <button onClick={handleDogClick}> About Me!! </button>
+        <button className="dogBtn" onClick={handleDogClick}>
+          {" "}
+          About Me!!{" "}
+        </button>
         {showDogDetails ? (
           <div>
             <p>Description: {dog.description}</p>

@@ -6,10 +6,12 @@
 .newsletter {
   text-align: center;
 }
-.button {
-  text-align: center;
-}
 
+img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
 body {
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -63,11 +65,29 @@ nav a.active {
   background-color: cornsilk;
 }
 
-section {
+/* styles */
+ul {
+  list-style: none;
+}
+#dogs,
+#cats {
   display: flex;
-  align-items: center;
   justify-content: center;
+}
+.dogCard > li {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
   flex-direction: column;
-  text-align: center;
-  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 8px;
+  width: 500px;
+}
+
+.dogBtn,
+.catBtn {
+  margin: 25px;
 }

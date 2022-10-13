@@ -1,7 +1,8 @@
 function Home() {
   return (
-    <div id="home">
-      <h1>DON'T SHOP, ADOPT!!</h1>
+    <div className="home">
+      <h1>Schrodinger & Pavlov Pet Adoptions</h1>
+      <h2>ABOUT US</h2>
     </div>
   );
 }
