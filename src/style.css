@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-.newsletter {
-  text-align: center;
-}
 
 img {
   border-radius: 50%;
@@ -91,4 +88,10 @@ ul {
 .dogBtn,
 .catBtn {
   margin: 25px;
+}
+.newsletter {
+  text-align: center;
+}
+.input {
+  margin-bottom: 10px;
 }

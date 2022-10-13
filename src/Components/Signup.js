@@ -7,7 +7,12 @@ function Signup() {
       <hr></hr>
       <p>Enter your email in the box below to receive updates</p>
       <form>
-        <input type="email" placeholder="Email" required></input>
+        <input
+          className="input"
+          type="email"
+          placeholder="Email"
+          required
+        ></input>
         <br></br>
         <button type="submit">Submit Now</button>
       </form>
