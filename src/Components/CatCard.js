@@ -8,11 +8,14 @@ function CatCard({ cat }) {
   }
 
   return (
-    <div>
+    <div className="catCard">
       <li>
         <h2>{cat.name}</h2>
         <img src={cat.image} alt={cat.name}></img>
-        <button onClick={handleCatClick}> About Me!!</button>
+        <button className="catBtn" onClick={handleCatClick}>
+          {" "}
+          About Me!!
+        </button>
         {showCatDetails ? (
           <div>
             <p>Description: {cat.description}</p>

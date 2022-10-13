@@ -74,7 +74,8 @@ ul {
   display: flex;
   justify-content: center;
 }
-.dogCard > li {
+.dogCard > li,
+.catCard > li {
   background-color: white;
   border: 1px solid black;
   border-radius: 5px;
