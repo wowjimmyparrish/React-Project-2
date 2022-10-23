@@ -21,10 +21,9 @@ code .
 ## Server: db.json
 - To run the server, type:
 ```
-npm run server
+json-server --watch db.json
 ```
 - In the editor, open another terminal and type:
 ```
-npm install
 npm start
 ```
