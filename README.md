@@ -3,7 +3,7 @@
 ## What is it?
 - A site for adopting cats and dogs
 - Users can click on a future pets "About Me" button to see cat/dog's information
-- Users can submit e-mail into the form to be added to the mailing list
+- Users can submit new cats or dogs for adoption
 
 
 ## Image Resource: https://www.pexels.com/
