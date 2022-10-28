@@ -94,4 +94,11 @@ ul {
 }
 .input {
   margin-bottom: 10px;
+  width: 40%;
+}
+.pet-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
 import Dogs from "./Components/Dogs";
 import Cats from "./Components/Cats";
-import Signup from "./Components/Signup";
+import AddPet from "./Components/AddPet";
 import Home from "./Components/Home";
 import NavBar from "./Components/NavBar";
 
@@ -36,8 +36,8 @@ function App() {
         <Route path="/cats">
           <Cats allCats={allCats} />
         </Route>
-        <Route path="/signup">
-          <Signup />
+        <Route path="/addpet">
+          <AddPet />
         </Route>
         <Route path="*">
           <h1> 404 Page Not Found</h1>
