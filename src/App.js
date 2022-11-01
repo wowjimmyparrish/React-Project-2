@@ -23,6 +23,10 @@ function App() {
       .then((data) => setAllCats(data));
   }, []);
 
+  function addDog(newDog) {
+    setAllDogs([newDog, ...allDogs]);
+  }
+
   return (
     <div>
       <NavBar onChangePage={setPage} />
@@ -37,7 +41,7 @@ function App() {
           <Cats allCats={allCats} />
         </Route>
         <Route path="/addpet">
-          <AddPet />
+          <AddPet addDog={addDog} />
         </Route>
         <Route path="*">
           <h1> 404 Page Not Found</h1>

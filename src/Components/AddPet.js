@@ -1,6 +1,7 @@
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 
-function Signup() {
+function AddPet({ addDog }) {
   const [data, setData] = useState({
     id: 0,
     name: "",
@@ -9,6 +10,7 @@ function Signup() {
     age: "",
     image: "",
   });
+  const history = useHistory();
 
   const requestOptions = {
     method: "POST",
@@ -19,11 +21,13 @@ function Signup() {
     e.preventDefault();
     fetch("http://localhost:3000/dogs", requestOptions)
       .then((response) => {
-        window.location.reload(false);
-        response.json();
+        // window.location.reload(false);
+        return response.json();
       })
-      .then((data) => {},
-      alert(`Thank you for your interest, ${data.name} has been added!`));
+      .then((data) => {
+        addDog(data);
+        history.push("/dogs");
+      });
   }
 
   return (
@@ -82,4 +86,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default AddPet;
